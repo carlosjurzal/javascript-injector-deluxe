@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        padding: 15px;
+        background-color: #f5f5f5;
+        color: #333;
+        width: 500px; /* Establece el ancho del popup */
+      }
+      textarea, input, select, button {
+        width: 100%;
+        margin-bottom: 10px;
+        padding: 10px;
+        border: none;
+        border-radius: 4px;
+        box-sizing: border-box;
+        font-family: Arial, sans-serif;
+        font-size: 14px;
+      }
+      textarea {
+        height: 300px;
+      }
+      button {
+        display: inline-block;
+        background-color: #007BFF;
+        color: white;
+        cursor: pointer;
+        transition: background-color 0.3s;
+        margin-right: 5px;
+        padding: 5px 10px;
+        border-radius: 4px;
+      }
+      button.dark{
+        background-color: #615656;
+      }
+      button.dark:hover{
+        background-color: black;
+      }
+      button:hover {
+        background-color: #0056b3;
+      }
+      .add-icon::before {
+        margin-right: 5px;
+      }
+      .edit-icon::before {
+        margin-right: 5px;
+      }
+      .execute-icon::before {
+        margin-right: 5px;
+      }
+
+      .buttons__container{
+        display: flex;
+        margin-top: 16px;
+      }
+    </style>
+</head>
+<body>
+    <div>
+        <select id="saved-scripts">
+          <!-- Los scripts guardados se llenarán aquí -->
+        </select>
+        <div class="buttons__container">
+          <button id="add-new" class="dark add-icon"><i class="fas fa-plus"></i> Añadir nuevo script</button>
+          <button id="edit" class="edit-icon"><i class="fas fa-edit"></i> Editar Script</button>
+          <button id="execute" class="execute-icon"><i class="fas fa-play"></i> Ejecutar Script</button>
+        </div>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>
