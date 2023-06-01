@@ -1,4 +1,4 @@
-<h1 align="center" id="title">Javascript Injector Deluce</h1>
+<h1 align="center" id="title">Javascript Injector Deluxe</h1>
 
 <p align="center"><img src="https://socialify.git.ci/carlosjurzal/javascript-injector-deluxe/image?description=1&amp;font=Inter&amp;forks=1&amp;issues=1&amp;name=1&amp;owner=1&amp;pattern=Circuit%20Board&amp;pulls=1&amp;stargazers=1&amp;theme=Light" alt="project-image"></p>
 <p align="center"><img src="./icon128.png" alt="project-image"></p>
